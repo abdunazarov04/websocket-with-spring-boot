@@ -27,9 +27,11 @@ Make sure the selected **JDK** version matches the one specified in the pom.xml.
 
 Run the following command in the project directory:
 
-bash
-Копировать код
+```bash
+
 mvn clean package
+```
+
 This will clean the project, compile the source code, and package it into a deployable .jar file located in the target
 directory.
 ---
@@ -38,10 +40,12 @@ directory.
    Run the packaged .jar file to start the Spring Boot application.
 
 ```bash
+
 java -jar target/<your_project_name>.jar
 ```
 
-Alternatively, if you are using an IDE like IntelliJ IDEA, you can directly run the application by executing the main method in the primary Spring Boot class.
+Alternatively, if you are using an IDE like IntelliJ IDEA, you can directly run the application by executing the main
+method in the primary Spring Boot class.
 
 
 ---
@@ -55,6 +59,7 @@ http://localhost:8080
 ```
 
 You should now see the chat application interface. Enter a username to start chatting!
+
 ````
 Features
 Real-time communication using WebSocket.
