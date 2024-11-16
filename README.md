@@ -8,7 +8,7 @@ and run the application.
 
 ```bash
 
-git clone <https://github.com/abdunazarov04/websocket-with-spring-boot.git>
+git clone https://github.com/abdunazarov04/websocket-with-spring-boot.git
 ```
 
 ---
